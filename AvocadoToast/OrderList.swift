@@ -19,6 +19,7 @@ struct OrderList: View {
 struct ContentView_Previews: PreviewProvider {
 	static var previews: some View {
 		OrderList(orders: [
+			.init(id: 1, title: "Order 1", subtitle: "Subtitle 1", toppings: [.eggs, .salt]),
 			.init(id: 1, title: "Order 1", subtitle: "Subtitle 1", toppings: [.eggs, .salt])
 		])
 	}
