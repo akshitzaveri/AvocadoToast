@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BF163E3725EA9D4D002A1A06 /* AvocadoToastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF163E3625EA9D4D002A1A06 /* AvocadoToastApp.swift */; };
-		BF163E3925EA9D4D002A1A06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF163E3825EA9D4D002A1A06 /* ContentView.swift */; };
+		BF163E3925EA9D4D002A1A06 /* OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF163E3825EA9D4D002A1A06 /* OrderList.swift */; };
 		BF163E3B25EA9D4E002A1A06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF163E3A25EA9D4E002A1A06 /* Assets.xcassets */; };
 		BF163E3E25EA9D4E002A1A06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF163E3D25EA9D4E002A1A06 /* Preview Assets.xcassets */; };
 		BF163E4925EA9D4E002A1A06 /* AvocadoToastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF163E4825EA9D4E002A1A06 /* AvocadoToastTests.swift */; };
 		BF163E5425EA9D4E002A1A06 /* AvocadoToastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF163E5325EA9D4E002A1A06 /* AvocadoToastUITests.swift */; };
+		BF163E6525EA9D85002A1A06 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF163E6425EA9D85002A1A06 /* Order.swift */; };
+		BF163E6A25EA9EAC002A1A06 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF163E6925EA9EAC002A1A06 /* OrderCell.swift */; };
+		BF163E6F25EA9FA9002A1A06 /* ToppingIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF163E6E25EA9FA9002A1A06 /* ToppingIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,7 @@
 /* Begin PBXFileReference section */
 		BF163E3325EA9D4D002A1A06 /* AvocadoToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvocadoToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF163E3625EA9D4D002A1A06 /* AvocadoToastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoToastApp.swift; sourceTree = "<group>"; };
-		BF163E3825EA9D4D002A1A06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF163E3825EA9D4D002A1A06 /* OrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderList.swift; sourceTree = "<group>"; };
 		BF163E3A25EA9D4E002A1A06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF163E3D25EA9D4E002A1A06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF163E3F25EA9D4E002A1A06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +48,9 @@
 		BF163E4F25EA9D4E002A1A06 /* AvocadoToastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvocadoToastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF163E5325EA9D4E002A1A06 /* AvocadoToastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoToastUITests.swift; sourceTree = "<group>"; };
 		BF163E5525EA9D4E002A1A06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF163E6425EA9D85002A1A06 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		BF163E6925EA9EAC002A1A06 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		BF163E6E25EA9FA9002A1A06 /* ToppingIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToppingIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				BF163E3625EA9D4D002A1A06 /* AvocadoToastApp.swift */,
-				BF163E3825EA9D4D002A1A06 /* ContentView.swift */,
+				BF163E6425EA9D85002A1A06 /* Order.swift */,
+				BF163E3825EA9D4D002A1A06 /* OrderList.swift */,
+				BF163E6925EA9EAC002A1A06 /* OrderCell.swift */,
+				BF163E6E25EA9FA9002A1A06 /* ToppingIcon.swift */,
 				BF163E3A25EA9D4E002A1A06 /* Assets.xcassets */,
 				BF163E3F25EA9D4E002A1A06 /* Info.plist */,
 				BF163E3C25EA9D4E002A1A06 /* Preview Content */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF163E3925EA9D4D002A1A06 /* ContentView.swift in Sources */,
+				BF163E6525EA9D85002A1A06 /* Order.swift in Sources */,
+				BF163E3925EA9D4D002A1A06 /* OrderList.swift in Sources */,
+				BF163E6A25EA9EAC002A1A06 /* OrderCell.swift in Sources */,
+				BF163E6F25EA9FA9002A1A06 /* ToppingIcon.swift in Sources */,
 				BF163E3725EA9D4D002A1A06 /* AvocadoToastApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
